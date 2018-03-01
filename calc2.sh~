@@ -1,0 +1,27 @@
+
+
+echo "Enter Your Choise : "
+echo "1.Addition"
+echo "2.Substtaction"
+echo "3.Multiplication"
+echo "4.Division"
+read opr
+echo "Enter first Number : "
+read n1
+echo "Enter second Number : "
+read n2
+if [ $opr = 1 ] 
+ then
+  echo "sum= `expr $n1 + $n2`"
+elif [ $opr = 2 ] 
+ then
+  echo "diff= `expr $n1 - $n2`"
+elif [ $opr = 3 ] 
+ then
+  echo "mul= `expr $n1 * $n2`"
+elif [ $opr = 4 ] 
+ then
+  echo "div= `expr $n1 / $n2`"
+  fi
+
+

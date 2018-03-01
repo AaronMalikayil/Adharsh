@@ -1,0 +1,10 @@
+echo "**********System Information**********"
+echo "operating system:`uname -o`"
+echo `uname -a`
+echo "kernel name:`uname -s`"
+echo "kernel version:`cat /proc/version`"
+echo "Available shells:`cat /etc/shells`"
+echo "CPU information:`cat /proc/cpuinfo`"
+echo "Memory information:`cat /proc/meminfo`"
+echo "Hardware information:`lsblk`"
+echo "File system:`df -k`"
